@@ -16,6 +16,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #0082fb;
 }
 
 form{
@@ -23,6 +24,81 @@ form{
     flex-direction: column;
     gap: 30px;
     margin: 1.5rem;
+    align-items: center;
 
 }
 
+form input{
+    width: 23rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: gray solid 1px;
+    padding-left: 5%;
+}
+
+#btn{
+    width: 18rem;
+    border-radius: 15px;
+    border: solid 1px #0082fb;
+    background-color: #ddff00;
+}
+
+.left1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -3rem;
+    gap: 2rem;
+}
+
+.left h1,.left1 h4{
+    color: white;
+}
+
+.left1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.right h1{
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    gap: 2rem;
+}
+
+.icons div{
+    display: flex;
+    flex-direction: column;
+}
+
+.bott{
+    color: gray;
+}
+
+@media (max-width: 870px){
+    body{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .right,.left{
+        width: 100%;
+        height: 100vh;
+    }
+} 
