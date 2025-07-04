@@ -41,6 +41,11 @@ form input{
     border-radius: 15px;
     border: solid 1px #0082fb;
     background-color: #ddff00;
+    transition: all 0.5s ease;
+}
+
+#btn:hover{
+    background-color: #fffb00;
 }
 
 .left1{
