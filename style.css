@@ -92,6 +92,15 @@ form input{
     flex-direction: column;
 }
 
+.icons div{
+    transform: rotateY();
+    transition: all 0.5s ease-in-out;
+}
+
+.icons div:hover{
+    transform: rotateY(360deg);
+}
+
 .bott{
     color: gray;
 }
